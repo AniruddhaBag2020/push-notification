@@ -3,7 +3,7 @@ function displayNotification() {
       navigator.serviceWorker.getRegistration().then(function(reg) {
         var options = {
           body: 'Here is a notification body!',
-          icon: './images/example.png',
+          image: '/images/example.png',
           vibrate: [100, 50, 100],
           data: {
             dateOfArrival: Date.now(),
@@ -11,9 +11,9 @@ function displayNotification() {
           },
           actions: [
             {action: 'explore', title: 'Explore this new world',
-              icon: 'images/example.png'},
+              icon: '/images/example.png'},
             {action: 'close', title: 'I don\'t want any of this',
-              icon: 'images/example.png'},
+              icon: '/images/example.png'},
           ]
         };
         reg.showNotification('Hello world!', options);
