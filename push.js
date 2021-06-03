@@ -11,7 +11,7 @@ console.log(vapidKeys);
 
 push.setVapidDetails('mailto:test@code.co.uk', vapidKeys.publicKey, vapidKeys.privateKey)
 
-let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/eyHuyHFwo_k:APA91bFIvy-M62WBYGo9QzbF1t7W2soXhsY6eU3ZfLZcY9H8r-7Vos29lIUpevcMT-UmvpNfMSt-tYzudMdRZRS9xo7sTymc-3FRTwthC-lgwQuW0yGSYBg2I_fRrKyCg_Teg5aT4VNp","expirationTime":null,"keys":{"p256dh":"BOYlyucR5T6rmW2Dg2y9p5wHe8m1EQsife6kaWRkez4_L51UjZuQ5JNckf5VRhcygZ5E69YJGqdLSUKVTZxzMRM","auth":"ZgOrB2K9WkSlg9DH61vjfQ"}}
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/dMV8Ij1HqgM:APA91bEqtl8A9EoNWiGP5Ty95mBKiPFo8ZxbJE-lyhwpsEFIl_QRrgkdgpvw00QskJJXyht0R-LGz313XTEGcU4rSRTygYJaslOWlqHMq_4GLiesB6UKrK_IShThjeVDj3M7X5VINMF5","expirationTime":null,"keys":{"p256dh":"BEBeGnVGN_rCieHc7kpt0Ty23lqomJNZrlOepXLJEbXuE8GukjKOH48Pd068fNrPULu0Udyae1wrzmR4zJz1yUI","auth":"o-R_ypgCDkVLa-VbjrTDHA"}}
 
 
 setInterval(function(){

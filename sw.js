@@ -8,7 +8,13 @@ function displayNotification() {
           data: {
             dateOfArrival: Date.now(),
             primaryKey: 1
-          }
+          },
+          actions: [
+            {action: 'explore', title: 'Explore this new world',
+              icon: 'images/example.png'},
+            {action: 'close', title: 'I don\'t want any of this',
+              icon: 'images/example.png'},
+          ]
         };
         reg.showNotification('Hello world!', options);
       });
